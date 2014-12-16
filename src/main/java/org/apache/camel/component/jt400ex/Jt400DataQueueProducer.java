@@ -36,7 +36,7 @@ public class Jt400DataQueueProducer extends DefaultProducer {
      */
     private final Jt400DataQueueService queueService;
 
-    protected Jt400DataQueueProducer(Jt400DataQueueEndpoint endpoint) {
+    protected Jt400DataQueueProducer(final Jt400DataQueueEndpoint endpoint) {
         super(endpoint);
         this.endpoint = endpoint;
         this.queueService = new Jt400DataQueueService(endpoint);
@@ -52,10 +52,8 @@ public class Jt400DataQueueProducer extends DefaultProducer {
      * If the endpoint is configured to publish to a {@link KeyedDataQueue},
      * then the {@link org.apache.camel.Message} header <code>KEY</code> must be set.
      */
-    public void process(Exchange exchange) throws Exception {
-        log.info("Processing exchange");
-
-        BaseDataQueue queue = queueService.getDataQueue();
+    public void process(final Exchange exchange) throws Exception {
+        final BaseDataQueue queue = queueService.getDataQueue();
         if (endpoint.isKeyed()) {
             process((KeyedDataQueue) queue, exchange);
         } else {
@@ -63,9 +61,7 @@ public class Jt400DataQueueProducer extends DefaultProducer {
         }
     }
 
-    private void process(DataQueue queue, Exchange exchange) throws Exception {
-        log.info("Send message to DataQueue");
-
+    private void process(final DataQueue queue, Exchange exchange) throws Exception {
         if (endpoint.getFormat() == Format.binary) {
             queue.write(exchange.getIn().getBody(byte[].class));
         } else {
@@ -74,23 +70,15 @@ public class Jt400DataQueueProducer extends DefaultProducer {
     }
 
     private void process(final KeyedDataQueue queue, final Exchange exchange) throws Exception {
-        log.info("Send message to KeyedDataQueue");
-
         if (endpoint.getFormat() == Format.binary) {
-            byte[] key = exchange.getIn().getHeader(Jt400DataQueueEndpoint.KEY, byte[].class);
-            if (key == null) {
-                key = exchange.getIn().getHeader(Jt400DataQueueEndpoint.KEY.toLowerCase(), byte[].class);
-            }
+            final byte[] key = exchange.getIn().getHeader(Jt400DataQueueEndpoint.KEY, byte[].class);
             final byte[] body = exchange.getIn().getBody(byte[].class);
-            log.info("byte[] KEY: " + key + " BODY: " + body);
+            log.trace("byte[] KEY: " + key + " BODY: " + body);
             queue.write(key, body);
         } else {
-            String key = exchange.getIn().getHeader(Jt400DataQueueEndpoint.KEY, String.class);
-            if (key == null) {
-                key = exchange.getIn().getHeader(Jt400DataQueueEndpoint.KEY.toLowerCase(), String.class);
-            }
+            final String key = exchange.getIn().getHeader(Jt400DataQueueEndpoint.KEY, String.class);
             final String body = exchange.getIn().getBody(String.class);
-            log.info("String KEY: " + key + " BODY: " + body);
+            log.trace("String KEY: " + key + " BODY: " + body);
             queue.write(key, body);
         }
     }
