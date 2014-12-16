@@ -144,7 +144,7 @@ public class Jt400DataQueueConsumer extends PollingConsumerSupport {
 
         for (final String key : searchKeysProvider.getKeys()) {
             log.trace("Reading from data queue: {} with no timeout", queue.getName());
-            entry = queue.read(key, -1, EQ_SEARCH_TYPE);
+            entry = queue.read(key, 0, EQ_SEARCH_TYPE);
 
             /*
                 We have a message from our list of keys, so return an exchange
