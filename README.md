@@ -19,7 +19,7 @@ of any messages that it processes.
 
 CONFIGURATION
 =============
-
+```xml
 <!-- This is our instance of a class that extends the SearchKeysProvider interface -->
 <bean id="searchKeysProvider" class="org.apache.camel.component.jt400ex.SearchKeysProviderImpl"/>
 
@@ -43,3 +43,4 @@ CONFIGURATION
         <camel:process ref="addSearchKeyProcessor"/>
     </camel:route>
 </camel:camelContext>
+```
