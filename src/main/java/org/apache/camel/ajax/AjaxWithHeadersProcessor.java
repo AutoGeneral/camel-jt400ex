@@ -27,8 +27,9 @@ public class AjaxWithHeadersProcessor implements Processor {
             final String incomingMessage = exchange.getIn().getBody(String.class).toString();
 
             final JsonParserFactory factory=JsonParserFactory.getInstance();
-            final JSONParser parser=factory.newJsonParser();
-            final Map jsonData=parser.parseJson(incomingMessage);
+            final JSONParser parser = factory.newJsonParser();
+
+            final Map jsonData = parser.parseJson(incomingMessage);
 
             final List headers= (List)jsonData.get("headers");
 
