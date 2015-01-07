@@ -43,6 +43,14 @@ Enable scheduled beans by ensuring you have the task namespace defined in the be
       http://www.springframework.org/schema/task/spring-task-3.0.xsd">
 ```
 
+Then define the scheduler
+
+```xml
+<task:annotation-driven executor="myExecutor" scheduler="myScheduler"/>
+<task:executor id="myExecutor" pool-size="5"/>
+<task:scheduler id="myScheduler" pool-size="10"/>
+```
+
 You'll then need to define the various processors and endpoints.
 
 ```xml

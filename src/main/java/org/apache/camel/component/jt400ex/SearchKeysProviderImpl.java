@@ -24,7 +24,6 @@ import java.util.logging.Level;
  * <camel:to uri="activemq:topic:JMSOutput"/>
  * </camel:route>
  */
-@Configuration
 @EnableScheduling
 public class SearchKeysProviderImpl implements SearchKeysProvider {
     private static final Logger LOGGER = LoggerFactory.getLogger(SearchKeysProviderImpl.class);
