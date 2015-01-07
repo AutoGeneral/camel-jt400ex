@@ -7,6 +7,7 @@
 /Users/mcasperson/intellij-project/camel-jt400ex/src/main/java/org/apache/camel/component/jt400ex/SearchKeysProvider.java
 /Users/mcasperson/intellij-project/camel-jt400ex/src/main/java/org/apache/camel/component/jt400ex/Jt400DataQueueProducer.java
 /Users/mcasperson/intellij-project/camel-jt400ex/src/main/java/org/apache/camel/component/jt400ex/Jt400PgmEndpoint.java
+/Users/mcasperson/intellij-project/camel-jt400ex/src/main/java/org/apache/camel/ajax/AjaxWithHeadersProcessor.java
 /Users/mcasperson/intellij-project/camel-jt400ex/src/main/java/org/apache/camel/component/jt400ex/Jt400DataQueueConsumer.java
 /Users/mcasperson/intellij-project/camel-jt400ex/src/main/java/org/apache/camel/component/jt400ex/Jt400DataQueueEndpoint.java
 /Users/mcasperson/intellij-project/camel-jt400ex/src/main/java/org/apache/camel/component/jt400ex/AddSearchKeyProcessor.java

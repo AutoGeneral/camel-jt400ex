@@ -1,6 +1,7 @@
 package org.apache.camel.component.jt400ex;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * Defines the interface that accepts new keys and returns all keys to be
@@ -25,5 +26,5 @@ public interface SearchKeysProvider {
      *
      * @return A list of the current keys
      */
-    List<String> getKeys();
+    Set<String> getKeys();
 }

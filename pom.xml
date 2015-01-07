@@ -32,9 +32,15 @@
     <jt400-version>6.0</jt400-version>
     <junit-version>4.12</junit-version>
     <slf4j-log4j12-version>1.7.7</slf4j-log4j12-version>
+    <spring-version>3.2.8.RELEASE</spring-version>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring-version}</version>
+    </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-core</artifactId>

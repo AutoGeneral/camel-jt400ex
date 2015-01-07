@@ -24,6 +24,27 @@ You'll need to make sure camel has access to jt400-full-6.0.jar and quick-json-1
 
 CONFIGURATION
 =============
+Enable scheduled beans by ensuring you have the task namespace defined in the bean element
+
+```xml
+﻿<beans
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:amq="http://activemq.apache.org/schema/core"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:camel="http://camel.apache.org/schema/spring"
+    xmlns:task="http://www.springframework.org/schema/task"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+      http://activemq.apache.org/schema/core
+      http://activemq.apache.org/schema/core/activemq-core.xsd
+      http://camel.apache.org/schema/spring
+      http://camel.apache.org/schema/spring/camel-spring.xsd
+      http://www.springframework.org/schema/task
+      http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+```
+
+You'll then need to define the various processors and endpoints.
+
 ```xml
 <!-- This is our instance of a class that extends the SearchKeysProvider interface -->
 <bean id="searchKeysProvider" class="org.apache.camel.component.jt400ex.SearchKeysProviderImpl"/>
