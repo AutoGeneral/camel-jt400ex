@@ -68,7 +68,7 @@ public class SearchKeysProviderImpl implements SearchKeysProvider {
 
         for (final String key : removeList) {
             LOGGER.info("Removed key " + key + " from the list");
-            keys.remove(key);
+            removeKey(key);
         }
     }
 }

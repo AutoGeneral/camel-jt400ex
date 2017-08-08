@@ -1,0 +1,467 @@
+2017-08-08 13:49:37,798 [main           ] INFO  Jt400RouteTest                 - ********************************************************************************
+2017-08-08 13:49:37,798 [main           ] INFO  Jt400RouteTest                 - Testing: testBasicTest(org.apache.camel.component.jt400ex.Jt400RouteTest)
+2017-08-08 13:49:37,798 [main           ] INFO  Jt400RouteTest                 - ********************************************************************************
+2017-08-08 13:49:37,979 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-1) is starting
+2017-08-08 13:49:38,012 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,012 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,012 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,015 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-1) started in 0.033 seconds
+2017-08-08 13:49:38,015 [main           ] INFO  Jt400RouteTest                 - ********************************************************************************
+2017-08-08 13:49:38,015 [main           ] INFO  Jt400RouteTest                 - Testing done: testBasicTest(org.apache.camel.component.jt400ex.Jt400RouteTest)
+2017-08-08 13:49:38,015 [main           ] INFO  Jt400RouteTest                 - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,015 [main           ] INFO  Jt400RouteTest                 - ********************************************************************************
+2017-08-08 13:49:38,015 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-1) is shutting down
+2017-08-08 13:49:38,018 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-1) uptime 0.038 seconds
+2017-08-08 13:49:38,018 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-1) is shutdown in 0.002 seconds
+2017-08-08 13:49:38,026 [main           ] INFO  efaultSecureConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,026 [main           ] INFO  efaultSecureConnectionPoolTest - Testing: testDefaultConnectionPoolIsOfExpectedType(org.apache.camel.component.jt400ex.Jt400ComponentDefaultSecureConnectionPoolTest)
+2017-08-08 13:49:38,026 [main           ] INFO  efaultSecureConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,028 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-2) is starting
+2017-08-08 13:49:38,031 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,031 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,031 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,031 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-2) started in 0.003 seconds
+2017-08-08 13:49:38,035 [main           ] INFO  Jt400Component                 - Instantiating the default connection pool ...
+2017-08-08 13:49:38,050 [main           ] INFO  efaultSecureConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,050 [main           ] INFO  efaultSecureConnectionPoolTest - Testing: testDefaultConnectionPoolIsCreated(org.apache.camel.component.jt400ex.Jt400ComponentDefaultSecureConnectionPoolTest)
+2017-08-08 13:49:38,050 [main           ] INFO  efaultSecureConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,054 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-3) is starting
+2017-08-08 13:49:38,057 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,057 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,057 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,057 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-3) started in 0.003 seconds
+2017-08-08 13:49:38,057 [main           ] INFO  Jt400Component                 - Instantiating the default connection pool ...
+2017-08-08 13:49:38,058 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-3) is shutting down
+2017-08-08 13:49:38,058 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-3) uptime 0.004 seconds
+2017-08-08 13:49:38,058 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-3) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,069 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,069 [main           ] INFO  figurationSecureConnectionTest - Testing: testCssid(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,069 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,071 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-4) is starting
+2017-08-08 13:49:38,074 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,074 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,074 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,074 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-4) started in 0.003 seconds
+2017-08-08 13:49:38,087 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,087 [main           ] INFO  figurationSecureConnectionTest - Testing done: testCssid(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,088 [main           ] INFO  figurationSecureConnectionTest - Took: 0.013 seconds (13 millis)
+2017-08-08 13:49:38,088 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,088 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-4) is shutting down
+2017-08-08 13:49:38,088 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-4) uptime 0.017 seconds
+2017-08-08 13:49:38,088 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-4) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,105 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,105 [main           ] INFO  figurationSecureConnectionTest - Testing: testGuiAvailable(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,105 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,106 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-5) is starting
+2017-08-08 13:49:38,108 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,108 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,108 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,108 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-5) started in 0.002 seconds
+2017-08-08 13:49:38,108 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,108 [main           ] INFO  figurationSecureConnectionTest - Testing done: testGuiAvailable(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,108 [main           ] INFO  figurationSecureConnectionTest - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,108 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,108 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-5) is shutting down
+2017-08-08 13:49:38,109 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-5) uptime 0.003 seconds
+2017-08-08 13:49:38,109 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-5) is shutdown in 0.001 seconds
+2017-08-08 13:49:38,109 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,109 [main           ] INFO  figurationSecureConnectionTest - Testing: testSystemName(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,109 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,111 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-6) is starting
+2017-08-08 13:49:38,112 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,112 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,112 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,112 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-6) started in 0.002 seconds
+2017-08-08 13:49:38,112 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,112 [main           ] INFO  figurationSecureConnectionTest - Testing done: testSystemName(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,113 [main           ] INFO  figurationSecureConnectionTest - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,113 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,113 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-6) is shutting down
+2017-08-08 13:49:38,113 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-6) uptime 0.003 seconds
+2017-08-08 13:49:38,113 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-6) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,114 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,114 [main           ] INFO  figurationSecureConnectionTest - Testing: testUserId(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,114 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,115 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-7) is starting
+2017-08-08 13:49:38,116 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,117 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,117 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,117 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-7) started in 0.002 seconds
+2017-08-08 13:49:38,117 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,117 [main           ] INFO  figurationSecureConnectionTest - Testing done: testUserId(org.apache.camel.component.jt400ex.Jt400ConfigurationSecureConnectionTest)
+2017-08-08 13:49:38,117 [main           ] INFO  figurationSecureConnectionTest - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,117 [main           ] INFO  figurationSecureConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,117 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-7) is shutting down
+2017-08-08 13:49:38,118 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-7) uptime 0.003 seconds
+2017-08-08 13:49:38,118 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-7) is shutdown in 0.001 seconds
+2017-08-08 13:49:38,120 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,120 [main           ] INFO  Jt400EndpointTest              - Testing: testSystemConfiguration(org.apache.camel.component.jt400ex.Jt400EndpointTest)
+2017-08-08 13:49:38,120 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,121 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-8) is starting
+2017-08-08 13:49:38,124 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,124 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,124 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,125 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-8) started in 0.003 seconds
+2017-08-08 13:49:38,136 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,136 [main           ] INFO  Jt400EndpointTest              - Testing done: testSystemConfiguration(org.apache.camel.component.jt400ex.Jt400EndpointTest)
+2017-08-08 13:49:38,136 [main           ] INFO  Jt400EndpointTest              - Took: 0.011 seconds (11 millis)
+2017-08-08 13:49:38,136 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,136 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-8) is shutting down
+2017-08-08 13:49:38,137 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-8) uptime 0.016 seconds
+2017-08-08 13:49:38,137 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-8) is shutdown in 0.001 seconds
+2017-08-08 13:49:38,138 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,138 [main           ] INFO  Jt400EndpointTest              - Testing: testToString(org.apache.camel.component.jt400ex.Jt400EndpointTest)
+2017-08-08 13:49:38,138 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,139 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-9) is starting
+2017-08-08 13:49:38,141 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,141 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,141 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,141 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-9) started in 0.002 seconds
+2017-08-08 13:49:38,143 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,143 [main           ] INFO  Jt400EndpointTest              - Testing done: testToString(org.apache.camel.component.jt400ex.Jt400EndpointTest)
+2017-08-08 13:49:38,143 [main           ] INFO  Jt400EndpointTest              - Took: 0.002 seconds (2 millis)
+2017-08-08 13:49:38,143 [main           ] INFO  Jt400EndpointTest              - ********************************************************************************
+2017-08-08 13:49:38,143 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-9) is shutting down
+2017-08-08 13:49:38,144 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-9) uptime 0.005 seconds
+2017-08-08 13:49:38,144 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-9) is shutdown in 0.001 seconds
+2017-08-08 13:49:38,147 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,147 [main           ] INFO  Jt400PgmEndpointTest           - Testing: testSystemConfiguration(org.apache.camel.component.jt400ex.Jt400PgmEndpointTest)
+2017-08-08 13:49:38,147 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,148 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-10) is starting
+2017-08-08 13:49:38,150 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,150 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,150 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,150 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-10) started in 0.002 seconds
+2017-08-08 13:49:38,152 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,152 [main           ] INFO  Jt400PgmEndpointTest           - Testing done: testSystemConfiguration(org.apache.camel.component.jt400ex.Jt400PgmEndpointTest)
+2017-08-08 13:49:38,152 [main           ] INFO  Jt400PgmEndpointTest           - Took: 0.002 seconds (2 millis)
+2017-08-08 13:49:38,152 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,152 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-10) is shutting down
+2017-08-08 13:49:38,153 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-10) uptime 0.005 seconds
+2017-08-08 13:49:38,153 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-10) is shutdown in 0.001 seconds
+2017-08-08 13:49:38,153 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,153 [main           ] INFO  Jt400PgmEndpointTest           - Testing: testToString(org.apache.camel.component.jt400ex.Jt400PgmEndpointTest)
+2017-08-08 13:49:38,153 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,157 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-11) is starting
+2017-08-08 13:49:38,158 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,158 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,158 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,158 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-11) started in 0.002 seconds
+2017-08-08 13:49:38,160 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,160 [main           ] INFO  Jt400PgmEndpointTest           - Testing done: testToString(org.apache.camel.component.jt400ex.Jt400PgmEndpointTest)
+2017-08-08 13:49:38,160 [main           ] INFO  Jt400PgmEndpointTest           - Took: 0.002 seconds (2 millis)
+2017-08-08 13:49:38,161 [main           ] INFO  Jt400PgmEndpointTest           - ********************************************************************************
+2017-08-08 13:49:38,161 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-11) is shutting down
+2017-08-08 13:49:38,161 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-11) uptime 0.007 seconds
+2017-08-08 13:49:38,161 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-11) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,163 [main           ] INFO  onentDefaultConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,163 [main           ] INFO  onentDefaultConnectionPoolTest - Testing: testDefaultConnectionPoolIsOfExpectedType(org.apache.camel.component.jt400ex.Jt400ComponentDefaultConnectionPoolTest)
+2017-08-08 13:49:38,163 [main           ] INFO  onentDefaultConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,165 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-12) is starting
+2017-08-08 13:49:38,167 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,167 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,167 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,167 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-12) started in 0.002 seconds
+2017-08-08 13:49:38,167 [main           ] INFO  Jt400Component                 - Instantiating the default connection pool ...
+2017-08-08 13:49:38,167 [main           ] INFO  onentDefaultConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,167 [main           ] INFO  onentDefaultConnectionPoolTest - Testing: testDefaultConnectionPoolIsCreated(org.apache.camel.component.jt400ex.Jt400ComponentDefaultConnectionPoolTest)
+2017-08-08 13:49:38,168 [main           ] INFO  onentDefaultConnectionPoolTest - ********************************************************************************
+2017-08-08 13:49:38,172 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-13) is starting
+2017-08-08 13:49:38,173 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,173 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,174 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,174 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-13) started in 0.002 seconds
+2017-08-08 13:49:38,174 [main           ] INFO  Jt400Component                 - Instantiating the default connection pool ...
+2017-08-08 13:49:38,174 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-13) is shutting down
+2017-08-08 13:49:38,175 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-13) uptime 0.003 seconds
+2017-08-08 13:49:38,175 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-13) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,177 [main           ] INFO  Jt400PgmRouteTest              - ********************************************************************************
+2017-08-08 13:49:38,177 [main           ] INFO  Jt400PgmRouteTest              - Testing: testBasicTest(org.apache.camel.component.jt400ex.Jt400PgmRouteTest)
+2017-08-08 13:49:38,177 [main           ] INFO  Jt400PgmRouteTest              - ********************************************************************************
+2017-08-08 13:49:38,178 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-14) is starting
+2017-08-08 13:49:38,180 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,180 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,180 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,180 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-14) started in 0.002 seconds
+2017-08-08 13:49:38,180 [main           ] INFO  Jt400PgmRouteTest              - ********************************************************************************
+2017-08-08 13:49:38,180 [main           ] INFO  Jt400PgmRouteTest              - Testing done: testBasicTest(org.apache.camel.component.jt400ex.Jt400PgmRouteTest)
+2017-08-08 13:49:38,180 [main           ] INFO  Jt400PgmRouteTest              - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,180 [main           ] INFO  Jt400PgmRouteTest              - ********************************************************************************
+2017-08-08 13:49:38,180 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-14) is shutting down
+2017-08-08 13:49:38,180 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-14) uptime 0.002 seconds
+2017-08-08 13:49:38,180 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-14) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,182 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,182 [main           ] INFO  Jt400ComponentTest             - Testing: testCreatePgmEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,182 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,183 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-15) is starting
+2017-08-08 13:49:38,185 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,185 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,185 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,186 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-15) started in 0.002 seconds
+2017-08-08 13:49:38,186 [main           ] WARN  DefaultComponent               - Supplied URI 'jt400ex://user:xxxxxx@host/qsys.lib/library.lib/queue.pgm?connectionPool=#mockPool' contains unsafe characters, please check encoding
+2017-08-08 13:49:38,186 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,186 [main           ] INFO  Jt400ComponentTest             - Testing done: testCreatePgmEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,186 [main           ] INFO  Jt400ComponentTest             - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,186 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,186 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-15) is shutting down
+2017-08-08 13:49:38,187 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-15) uptime 0.004 seconds
+2017-08-08 13:49:38,187 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-15) is shutdown in 0.001 seconds
+2017-08-08 13:49:38,188 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,188 [main           ] INFO  Jt400ComponentTest             - Testing: testCreateDatqSecuredEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,188 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,189 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-16) is starting
+2017-08-08 13:49:38,191 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,191 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,191 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,191 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-16) started in 0.002 seconds
+2017-08-08 13:49:38,191 [main           ] WARN  DefaultComponent               - Supplied URI 'jt400ex://user:xxxxxx@host/qsys.lib/library.lib/queue.dtaq?connectionPool=#mockPool&secured=true' contains unsafe characters, please check encoding
+2017-08-08 13:49:38,192 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,192 [main           ] INFO  Jt400ComponentTest             - Testing done: testCreateDatqSecuredEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,192 [main           ] INFO  Jt400ComponentTest             - Took: 0.001 seconds (1 millis)
+2017-08-08 13:49:38,192 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,192 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-16) is shutting down
+2017-08-08 13:49:38,192 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-16) uptime 0.003 seconds
+2017-08-08 13:49:38,192 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-16) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,193 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,193 [main           ] INFO  Jt400ComponentTest             - Testing: testCreateEndpointForOtherObjectType(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,193 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,195 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-17) is starting
+2017-08-08 13:49:38,196 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,196 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,197 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,197 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-17) started in 0.003 seconds
+2017-08-08 13:49:38,197 [main           ] INFO  Jt400Component                 - Instantiating the default connection pool ...
+2017-08-08 13:49:38,197 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,197 [main           ] INFO  Jt400ComponentTest             - Testing done: testCreateEndpointForOtherObjectType(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,197 [main           ] INFO  Jt400ComponentTest             - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,197 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,197 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-17) is shutting down
+2017-08-08 13:49:38,197 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-17) uptime 0.003 seconds
+2017-08-08 13:49:38,197 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-17) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,199 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,199 [main           ] INFO  Jt400ComponentTest             - Testing: testCreateDatqEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,199 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,200 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-18) is starting
+2017-08-08 13:49:38,201 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,201 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,201 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,201 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-18) started in 0.001 seconds
+2017-08-08 13:49:38,201 [main           ] WARN  DefaultComponent               - Supplied URI 'jt400ex://user:xxxxxx@host/qsys.lib/library.lib/queue.dtaq?connectionPool=#mockPool' contains unsafe characters, please check encoding
+2017-08-08 13:49:38,202 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,202 [main           ] INFO  Jt400ComponentTest             - Testing done: testCreateDatqEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,202 [main           ] INFO  Jt400ComponentTest             - Took: 0.001 seconds (1 millis)
+2017-08-08 13:49:38,202 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,202 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-18) is shutting down
+2017-08-08 13:49:38,202 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-18) uptime 0.002 seconds
+2017-08-08 13:49:38,202 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-18) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,203 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,203 [main           ] INFO  Jt400ComponentTest             - Testing: testCreatePgmSecuredEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,203 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,204 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-19) is starting
+2017-08-08 13:49:38,206 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,206 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,206 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,206 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-19) started in 0.002 seconds
+2017-08-08 13:49:38,206 [main           ] WARN  DefaultComponent               - Supplied URI 'jt400ex://user:xxxxxx@host/qsys.lib/library.lib/queue.pgm?connectionPool=#mockPool&secured=true' contains unsafe characters, please check encoding
+2017-08-08 13:49:38,207 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,207 [main           ] INFO  Jt400ComponentTest             - Testing done: testCreatePgmSecuredEndpoint(org.apache.camel.component.jt400ex.Jt400ComponentTest)
+2017-08-08 13:49:38,207 [main           ] INFO  Jt400ComponentTest             - Took: 0.001 seconds (1 millis)
+2017-08-08 13:49:38,207 [main           ] INFO  Jt400ComponentTest             - ********************************************************************************
+2017-08-08 13:49:38,207 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-19) is shutting down
+2017-08-08 13:49:38,207 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-19) uptime 0.003 seconds
+2017-08-08 13:49:38,207 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-19) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,211 [main           ] INFO  Jt400DataQueueProducerTest     - ********************************************************************************
+2017-08-08 13:49:38,211 [main           ] INFO  Jt400DataQueueProducerTest     - Testing: testToStringHidesPassword(org.apache.camel.component.jt400ex.Jt400DataQueueProducerTest)
+2017-08-08 13:49:38,211 [main           ] INFO  Jt400DataQueueProducerTest     - ********************************************************************************
+2017-08-08 13:49:38,212 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-20) is starting
+2017-08-08 13:49:38,214 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,214 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,214 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,214 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-20) started in 0.002 seconds
+2017-08-08 13:49:38,218 [main           ] INFO  Jt400DataQueueProducerTest     - ********************************************************************************
+2017-08-08 13:49:38,218 [main           ] INFO  Jt400DataQueueProducerTest     - Testing done: testToStringHidesPassword(org.apache.camel.component.jt400ex.Jt400DataQueueProducerTest)
+2017-08-08 13:49:38,218 [main           ] INFO  Jt400DataQueueProducerTest     - Took: 0.004 seconds (4 millis)
+2017-08-08 13:49:38,218 [main           ] INFO  Jt400DataQueueProducerTest     - ********************************************************************************
+2017-08-08 13:49:38,218 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-20) is shutting down
+2017-08-08 13:49:38,219 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-20) uptime 0.007 seconds
+2017-08-08 13:49:38,219 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-20) is shutdown in 0.001 seconds
+2017-08-08 13:49:38,221 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,221 [main           ] INFO  400ConfigurationConnectionTest - Testing: testCssid(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,221 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,222 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-21) is starting
+2017-08-08 13:49:38,231 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,231 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,232 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,232 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-21) started in 0.010 seconds
+2017-08-08 13:49:38,232 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,232 [main           ] INFO  400ConfigurationConnectionTest - Testing done: testCssid(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,232 [main           ] INFO  400ConfigurationConnectionTest - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,232 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,232 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-21) is shutting down
+2017-08-08 13:49:38,233 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-21) uptime 0.010 seconds
+2017-08-08 13:49:38,233 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-21) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,233 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,233 [main           ] INFO  400ConfigurationConnectionTest - Testing: testGuiAvailable(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,233 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,236 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-22) is starting
+2017-08-08 13:49:38,237 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,237 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,237 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,237 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-22) started in 0.001 seconds
+2017-08-08 13:49:38,238 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,238 [main           ] INFO  400ConfigurationConnectionTest - Testing done: testGuiAvailable(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,238 [main           ] INFO  400ConfigurationConnectionTest - Took: 0.001 seconds (1 millis)
+2017-08-08 13:49:38,238 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,238 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-22) is shutting down
+2017-08-08 13:49:38,238 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-22) uptime 0.002 seconds
+2017-08-08 13:49:38,238 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-22) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,239 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,239 [main           ] INFO  400ConfigurationConnectionTest - Testing: testSystemName(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,239 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,240 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-23) is starting
+2017-08-08 13:49:38,241 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,241 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,241 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,241 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-23) started in 0.001 seconds
+2017-08-08 13:49:38,242 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,242 [main           ] INFO  400ConfigurationConnectionTest - Testing done: testSystemName(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,242 [main           ] INFO  400ConfigurationConnectionTest - Took: 0.001 seconds (1 millis)
+2017-08-08 13:49:38,242 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,242 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-23) is shutting down
+2017-08-08 13:49:38,242 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-23) uptime 0.002 seconds
+2017-08-08 13:49:38,242 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-23) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,243 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,243 [main           ] INFO  400ConfigurationConnectionTest - Testing: testUserId(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,243 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,245 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-24) is starting
+2017-08-08 13:49:38,246 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,246 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,246 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,246 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-24) started in 0.001 seconds
+2017-08-08 13:49:38,246 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,246 [main           ] INFO  400ConfigurationConnectionTest - Testing done: testUserId(org.apache.camel.component.jt400ex.Jt400ConfigurationConnectionTest)
+2017-08-08 13:49:38,246 [main           ] INFO  400ConfigurationConnectionTest - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,247 [main           ] INFO  400ConfigurationConnectionTest - ********************************************************************************
+2017-08-08 13:49:38,247 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-24) is shutting down
+2017-08-08 13:49:38,247 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-24) uptime 0.002 seconds
+2017-08-08 13:49:38,247 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-24) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,251 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,251 [main           ] INFO  Jt400ConfigurationTest         - Testing: testDefaultFormat(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,251 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,252 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-25) is starting
+2017-08-08 13:49:38,253 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,253 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,253 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,253 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-25) started in 0.001 seconds
+2017-08-08 13:49:38,254 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,254 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testDefaultFormat(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,254 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.001 seconds (1 millis)
+2017-08-08 13:49:38,254 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,254 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-25) is shutting down
+2017-08-08 13:49:38,254 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-25) uptime 0.002 seconds
+2017-08-08 13:49:38,254 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-25) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,255 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,255 [main           ] INFO  Jt400ConfigurationTest         - Testing: testDefaultSecured(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,255 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,256 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-26) is starting
+2017-08-08 13:49:38,257 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,258 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,258 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,258 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-26) started in 0.002 seconds
+2017-08-08 13:49:38,258 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,258 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testDefaultSecured(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,258 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,258 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,258 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-26) is shutting down
+2017-08-08 13:49:38,259 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-26) uptime 0.002 seconds
+2017-08-08 13:49:38,259 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-26) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,259 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,259 [main           ] INFO  Jt400ConfigurationTest         - Testing: testSystemName(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,259 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,261 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-27) is starting
+2017-08-08 13:49:38,262 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,262 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,262 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,262 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-27) started in 0.001 seconds
+2017-08-08 13:49:38,262 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,262 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testSystemName(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,262 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,262 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,262 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-27) is shutting down
+2017-08-08 13:49:38,264 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-27) uptime 0.003 seconds
+2017-08-08 13:49:38,264 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-27) is shutdown in 0.002 seconds
+2017-08-08 13:49:38,265 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,265 [main           ] INFO  Jt400ConfigurationTest         - Testing: testObjectPath(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,265 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,266 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-28) is starting
+2017-08-08 13:49:38,269 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,269 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,269 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,269 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-28) started in 0.003 seconds
+2017-08-08 13:49:38,269 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,269 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testObjectPath(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,269 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,269 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,270 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-28) is shutting down
+2017-08-08 13:49:38,270 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-28) uptime 0.004 seconds
+2017-08-08 13:49:38,270 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-28) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,271 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,271 [main           ] INFO  Jt400ConfigurationTest         - Testing: testDefaultCcsid(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,271 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,272 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-29) is starting
+2017-08-08 13:49:38,273 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,273 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,273 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,273 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-29) started in 0.001 seconds
+2017-08-08 13:49:38,273 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,273 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testDefaultCcsid(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,274 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,274 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,274 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-29) is shutting down
+2017-08-08 13:49:38,274 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-29) uptime 0.002 seconds
+2017-08-08 13:49:38,274 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-29) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,275 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,275 [main           ] INFO  Jt400ConfigurationTest         - Testing: testDefaultGuiAvailable(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,275 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,276 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-30) is starting
+2017-08-08 13:49:38,277 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,277 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,277 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,277 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-30) started in 0.001 seconds
+2017-08-08 13:49:38,278 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,278 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testDefaultGuiAvailable(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,278 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.001 seconds (1 millis)
+2017-08-08 13:49:38,278 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,278 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-30) is shutting down
+2017-08-08 13:49:38,278 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-30) uptime 0.002 seconds
+2017-08-08 13:49:38,278 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-30) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,279 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,279 [main           ] INFO  Jt400ConfigurationTest         - Testing: testUserID(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,279 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,280 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-31) is starting
+2017-08-08 13:49:38,281 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,281 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,281 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,281 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-31) started in 0.001 seconds
+2017-08-08 13:49:38,281 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,281 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testUserID(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,281 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,281 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,282 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-31) is shutting down
+2017-08-08 13:49:38,282 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-31) uptime 0.002 seconds
+2017-08-08 13:49:38,282 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-31) is shutdown in 0.000 seconds
+2017-08-08 13:49:38,283 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,283 [main           ] INFO  Jt400ConfigurationTest         - Testing: testPassword(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,283 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,284 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-32) is starting
+2017-08-08 13:49:38,287 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-08-08 13:49:38,287 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-08-08 13:49:38,287 [main           ] INFO  DefaultCamelContext            - Total 0 routes, of which 0 is started.
+2017-08-08 13:49:38,287 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-32) started in 0.003 seconds
+2017-08-08 13:49:38,287 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,287 [main           ] INFO  Jt400ConfigurationTest         - Testing done: testPassword(org.apache.camel.component.jt400ex.Jt400ConfigurationTest)
+2017-08-08 13:49:38,287 [main           ] INFO  Jt400ConfigurationTest         - Took: 0.000 seconds (0 millis)
+2017-08-08 13:49:38,287 [main           ] INFO  Jt400ConfigurationTest         - ********************************************************************************
+2017-08-08 13:49:38,287 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-32) is shutting down
+2017-08-08 13:49:38,288 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-32) uptime 0.004 seconds
+2017-08-08 13:49:38,288 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.16.3 (CamelContext: camel-32) is shutdown in 0.001 seconds

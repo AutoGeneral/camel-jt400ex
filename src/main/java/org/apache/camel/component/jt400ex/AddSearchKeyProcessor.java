@@ -36,8 +36,8 @@ public class AddSearchKeyProcessor implements Processor {
     public void process(final Exchange exchange) throws Exception {
         final String keyName = exchange.getIn().getBody().toString();
 
-        LOGGER.info("Added key with name " + keyName);
         searchKeysProvider.addKey(keyName);
+        LOGGER.info("Added key with name " + keyName);
     }
 
     /**
