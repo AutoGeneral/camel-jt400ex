@@ -29,10 +29,10 @@
     <camel.osgi.export.pkg>org.apache.camel.component.jt400ex.*</camel.osgi.export.pkg>
     <camel.osgi.export.service>org.apache.camel.spi.ComponentResolver;component=jt400ex</camel.osgi.export.service>
     <camel-version>2.16.3</camel-version>
-    <jt400-version>8.6</jt400-version>
+    <jt400-version>6.0</jt400-version>
     <junit-version>4.12</junit-version>
     <slf4j-log4j12-version>1.7.12</slf4j-log4j12-version>
-    <spring-version>4.3.10.RELEASE</spring-version>
+    <spring-version>3.2.8.RELEASE</spring-version>
   </properties>
 
   <dependencies>
